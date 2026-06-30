@@ -4,6 +4,58 @@
 }
 
 h1 {
+    text-align: center;
+}
+
+body {
     font-family: "mowed_the_dog", serif;
-    color: red;
+    background-color: #75A99D;
+    color: #000000;
+}
+
+.handheld {
+    border-radius: 15px;
+    margin: 15px;
+    padding: 15px;
+}
+
+.container {
+    display: flex;
+}
+
+#ds {
+    background-color: #797BA1;
+}
+
+#switch {
+    background-color: #DB6B5D;
+}
+
+#vita {
+    background-color: #DCA7BD;
+}
+
+#playdate {
+    background-color: #E5BA8E;
+}
+
+#playdate_img {
+    width: 25vw;
+}
+
+#ds_img {
+    width: 20vw;
+}
+
+#vita_img {
+    width: 25vw;
+}
+
+#switch_img {
+    width: 30vw;
+}
+
+#title {
+    text-align: center;
+    font-size: clamp(1rem, 15vw, 20vh);
 }
