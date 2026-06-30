@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "mowed_the_dog";
+    src: url("fonts/MowedTheDog-Regular.otf") format("opentype");
+}
+
+h1 {
+    font-family: "mowed_the_dog", serif;
+    color: red;
+}
