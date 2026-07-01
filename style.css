@@ -3,8 +3,13 @@
     src: url("fonts/MowedTheDog-Regular.otf") format("opentype");
 }
 
-h1 {
+li {
+    font-size: 1.2rem;
+}
+
+.handheld_title {
     text-align: center;
+    font-size: 3.5rem;
 }
 
 body {
@@ -15,12 +20,19 @@ body {
 
 .handheld {
     border-radius: 15px;
-    margin: 15px;
+    margin: 15px 15px 30px 15px;
     padding: 15px;
+}
+
+.handheld:hover {
+    border: 1px solid white;
+    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.2);
 }
 
 .container {
     display: flex;
+    justify-content: center;
+    margin: 2%;
 }
 
 #ds {
@@ -39,6 +51,22 @@ body {
     background-color: #E5BA8E;
 }
 
+#play_title {
+    color: #7a3f04;
+}
+
+#ds_title {
+    color: #151851;
+}
+
+#vita_title {
+    color: #632e44;
+}
+
+#switch_title {
+    color: #6b1308;
+}
+
 #playdate_img {
     width: 25vw;
 }
@@ -52,10 +80,20 @@ body {
 }
 
 #switch_img {
-    width: 30vw;
+    width: 35vw;
 }
 
+
 #title {
+    margin: 10px 0 0 0;
+    color: #105041;
     text-align: center;
-    font-size: clamp(1rem, 15vw, 20vh);
+    font-size: clamp(1rem, 15vw, 12vh);
+}
+
+#subtitle {
+    color: #212826;
+    margin: 0 auto;
+    text-align: center;
+    font-size: clamp(1rem, 2vw, 4vh);
 }
