@@ -38,12 +38,3 @@ changeColors();
 setInterval(() => {
   changeColors();
 }, 3000); 
-
-function resetNav() {
-    if (document.head.title == "Handhelds I Like") {
-        document.getElementById("controller_link").color = "#105041";
-    }
-    else {
-        document.getElementById("handheld_link").color = "#105041";
-    }
-}
