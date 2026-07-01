@@ -3,6 +3,30 @@
     src: url("fonts/MowedTheDog-Regular.otf") format("opentype");
 }
 
+a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin: .5rem;
+}
+
+a:link {
+  color: #105041;
+  cursor: auto;
+}
+
+a:hover {
+    color: rgb(4, 48, 71);
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #4c2464;  
+}
+
+a:link:active {
+    color: #062989;  
+}
+
 li {
     font-size: 1.2rem;
 }
@@ -16,6 +40,10 @@ body {
     font-family: "mowed_the_dog", serif;
     background-color: #75A99D;
     color: #000000;
+}
+
+nav {
+    text-align: center;
 }
 
 .handheld {
@@ -51,35 +79,63 @@ body {
     background-color: #E5BA8E;
 }
 
-#play_title {
+#TDC {
+    background-color: #BE9DA4;
+}
+
+#DJ {
+    background-color: #B47F89;
+}
+
+#mobapads {
+    background-color: #F1BD81;
+}
+
+#play_title, .play_detail {
     color: #7a3f04;
 }
 
-#ds_title {
+#ds_title, .ds_detail {
     color: #151851;
 }
 
-#vita_title {
+#vita_title, .vita_detail {
     color: #632e44;
 }
 
-#switch_title {
+#switch_title, .swtich_detail {
     color: #6b1308;
+}
+
+#moba_title, .moba_detail {
+    color: rgb(185, 101, 5);
+}
+
+#DJ_title, .DJ_detail{
+    color: #570f1c;
+}
+
+#TDC_title, .TDC_detail{
+    color: #5d323c;
 }
 
 #playdate_img {
     width: 25vw;
+    margin-left: 1rem;
 }
 
 #ds_img {
+    margin-left: 1rem;
     width: 20vw;
 }
 
 #vita_img {
+    margin-left: 1rem;
     width: 25vw;
 }
 
 #switch_img {
+    margin-left: 0.5rem;
     width: 35vw;
 }
 
