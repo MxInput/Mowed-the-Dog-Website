@@ -3,6 +3,8 @@ var ICount = 1;
 var KCount = 2;
 var ECount = 3;
 
+const cursor = document.getElementById("cursor");
+
 function changeColors() {
     var avaliableColors = ["#12786f", "#214191", "#cfbc0a", "#a33a17"]
     
@@ -37,4 +39,13 @@ changeColors();
 
 setInterval(() => {
   changeColors();
-}, 3000); 
+}, 2000); 
+
+document.addEventListener("mousemove", (e) => {
+    cursor.style.transform = `translate(${e.pageX - 15}px, ${e.pageY - 15}px)`;
+})
+
+setTimeout(() => {
+    cursor.style.visibility = "visible";
+}, 300); 
+
